@@ -110,7 +110,11 @@ context('Actions', () => {
         .type('pantene').type('{enter}')        
     })
 
-    it("Try to blablabla",()=>{
-        cy.get('');
+    it("Brand scrolling list 3rd",()=>{
+        cy.get('#brandcarousal > :nth-child(3)')
+        cy.get(':nth-child(2) > .thumbnail > .shortlinks > .compare')
+        cy.get('#rating5').click();
+        cy.get('#name').type("bowo");
+        cy.get('#text').type("mantaff sekali ini produk");
     })
 });
