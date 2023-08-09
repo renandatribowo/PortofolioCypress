@@ -109,4 +109,8 @@ context('Actions', () => {
         cy.get('#filter_keyword')
         .type('pantene').type('{enter}')        
     })
+
+    it("Try to blablabla",()=>{
+        cy.get('');
+    })
 });
